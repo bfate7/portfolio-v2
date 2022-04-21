@@ -38,8 +38,8 @@ const Featuredproject = ({
 
   const renderImage = image => (
     <Image
-      src={`/${image}`}
-      alt=''
+      src={`/images/${image}`}
+      alt='project preview'
       height={"500"}
       width={"800"}
       className='h-full w-full'
