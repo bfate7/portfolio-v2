@@ -7,9 +7,7 @@ const DefaultLayout = ({ children }) => {
   const { darkTheme } = useContext(ThemeContext);
   return (
     <div
-      className={`min-h-screen  ${
-        darkTheme ? "dark bg-primary-dark-theme" : "bg-primary-light-theme"
-      }`}
+      className={`min-h-screen  ${darkTheme ? "dark bg-primary" : "bg-light"}`}
     >
       {" "}
       <NavBar />
