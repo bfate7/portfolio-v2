@@ -7,13 +7,11 @@ const BaseNavLink = ({ to, active, children }) => {
   return (
     <Link
       to={to}
-      className={` cursor-pointer ${
-        active ? "dark:text-gray-200" : "dark:text-gray-400"
-      }`}
+      className={` cursor-pointer text-gray-500`}
       smooth
       onClick={() => router.push("/#" + to)}
       spy
-      activeClass='dark:text-gray-200 underline'
+      activeClass='dark:text-gray-200 text-red-500" underline'
     >
       {children}
     </Link>

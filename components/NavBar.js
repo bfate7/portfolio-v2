@@ -61,7 +61,7 @@ const NavBar = () => {
 
   return (
     <div
-      className={`w-full h-16 bg-gray-100 dark:bg-gray-900 z-50 nav-slide-in fixed shadow-lg 
+      className={`w-full h-16 bg-light dark:bg-primary z-50 nav-slide-in fixed shadow-lg 
    
       ${pos === 0 ? "shadow-none" : ""}`}
     >
@@ -71,7 +71,7 @@ const NavBar = () => {
         }`}
       >
         <div
-          className='h-full w-8/12 absolute right-0 bg-gradient-to-b from-gray-200 to-gray-100 dark:from-gray-700 dark:to-gray-800'
+          className='h-full w-8/12 absolute right-0 bg-gradient-to-b from-light to-primary-lighten-3 dark:from-primary-lighten dark:to-primary'
           style={{ filter: "blur(0)" }}
         >
           <div className='flex flex-col items-center  gap-10 mt-16'>
