@@ -5,7 +5,7 @@ import contact from "../data/contact";
 
 const SideLinks = () => {
   return (
-    <>
+    <motion.div animate={{ opacity: [0, 1] }} transition={{ delay: 1 }}>
       <div className='fixed left-4 top-0  w-12 h-full py-4 items-end hidden md:flex'>
         <div className='h-full w-full flex gap-4 flex-col justify-center items-center overflow-hidden line-before line-after'>
           <h1
@@ -27,7 +27,7 @@ const SideLinks = () => {
           >
             <FiMail
               fontSize='2em'
-              className='text-green-400 hover:text-green-200 cursor-pointer'
+              className='text-secondary hover:text-secondary-lighten-1 cursor-pointer'
             />
           </motion.a>
 
@@ -39,7 +39,7 @@ const SideLinks = () => {
           >
             <FiFacebook
               fontSize='2em'
-              className='text-green-400 hover:text-green-200 cursor-pointer'
+              className='text-secondary hover:text-secondary-lighten-1 cursor-pointer'
             />
           </motion.a>
 
@@ -51,7 +51,7 @@ const SideLinks = () => {
           >
             <FiGithub
               fontSize='2em'
-              className='text-green-400 hover:text-green-200 cursor-pointer'
+              className='text-secondary hover:text-secondary-lighten-1 cursor-pointer'
             />
           </motion.a>
           <motion.a
@@ -62,12 +62,12 @@ const SideLinks = () => {
           >
             <FiLinkedin
               fontSize='2em'
-              className='text-green-400 hover:text-green-200 cursor-pointer'
+              className='text-secondary hover:text-secondary-lighten-1 cursor-pointer'
             />
           </motion.a>
         </div>
       </div>
-    </>
+    </motion.div>
   );
 };
 
