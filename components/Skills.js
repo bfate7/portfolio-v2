@@ -20,7 +20,7 @@ import {
 
 const Card = ({ title, children }) => (
   <div className='py-10  transition-colors rounded-md mt-10 shadow-md border dark:border-light border-primary-lighten-3'>
-    <h1 className='text-primary font-bold dark:text-primary-lighten text-lg text-center mb-5'>
+    <h1 className='text-primary-lighten-2 font-bold dark:text-primary-lighten-3 text-lg text-center mb-5'>
       {title}
     </h1>
     {children}
