@@ -26,12 +26,12 @@ const Featuredproject = ({
   });
 
   const linksClasses = classNames({
-    "dark:text-gray-300 flex gap-4 mt-3": true,
+    "dark:text-primary-lighten-3 flex gap-4 mt-3": true,
     "justify-end": discriptionRight,
   });
 
   const technologiesClasses = classNames({
-    "flex text-gray-500 flex-wrap  gap-5 py-5 text-md": true,
+    "flex text-primary-lighten-3 flex-wrap  gap-5 py-5 text-md": true,
     "justify-end": discriptionRight,
     "justify-start": !discriptionRight,
   });
@@ -50,11 +50,11 @@ const Featuredproject = ({
     <div className='grid grid-cols-12 grid-rows-1 mt-20'>
       <div className={descriptionClasses}>
         <h1 className='text-secondary'>Featured Project</h1>
-        <h1 className=' dark:text-primary-lighten-2 text-primary-lighten font-bold text-xl '>
+        <h1 className=' dark:text-primary-lighten-2 text-primary-lighten-1 font-bold text-xl '>
           {title && title}
         </h1>
 
-        <p className='py-5 md:p-5 w-full md:bg-primary-lighten-4 dark:bg-transparent text-gray-600   dark:text-gray-300 md:dark:text-gray-400  md:dark:bg-gray-800  md:shadow-lg rounded-md mt-5 md:hover:shadow-2xl transition-all'>
+        <p className='py-5 md:p-5 w-full md:bg-light border border-primary-lighten-4 dark:bg-transparent text-gray-600   dark:text-gray-300 md:dark:text-gray-400  md:dark:bg-gray-800  md:shadow-lg rounded-md mt-5 md:hover:shadow-2xl transition-all'>
           {description && description}
         </p>
 
