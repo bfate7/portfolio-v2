@@ -11,7 +11,7 @@ const Project = ({
 }) => {
   return (
     <motion.div
-      className='border dark:border-0 dark:bg-gray-800 p-5  md:p-8 mt-3 shadow-lg flex flex-col  rounded-sm min-w-[250px]'
+      className='border dark:border-0 dark:bg-primary-lighten-1 p-5  md:p-8 mt-3 shadow-lg flex flex-col  rounded-sm min-w-[250px]'
       whileHover={{ y: -10 }}
     >
       <div className='flex justify-between items-center'>
@@ -47,10 +47,10 @@ const Project = ({
         </div>
       </div>
 
-      <h1 className='text-lg mt-3  md:mt-5 dark:text-secondary text-gray-800 font-bold'>
+      <h1 className='text-lg mt-3  md:mt-5 dark:text-secondary text-primary-lighten-2 font-bold'>
         {title && title}
       </h1>
-      <div className='flex flex-col justify-between h-full mt-5 text-gray-600 text-justify'>
+      <div className='flex flex-col justify-between h-full mt-5 text-primary-lighten-2 text-justify'>
         <p className='self-start'>{description && description}</p>
 
         <div className='flex text-gray-500 flex-wrap  gap-5  py-5 text-sm'>

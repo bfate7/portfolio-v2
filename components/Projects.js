@@ -8,13 +8,13 @@ import { projects } from "../data/projects";
 const Projects = () => {
   return (
     <div className='mt-40'>
-      <h1 className='dark:text-gray-300 font-bold text-2xl text-center'>
+      <h1 className='dark:text-primary-lighten-2 text-primary-lighten-1 font-bold text-2xl text-center'>
         Other Projects
       </h1>
 
       <div className='flex justify-center mt-5'>
         <Link href={"/archive"} passHref>
-          <button className='text-center text-green-400 py-2 px-4 hover:bg-gray-200 dark:hover:bg-gray-800 rounded-md'>
+          <button className='text-center text-secondary py-2 px-4 hover:bg-primary-lighten-2 hover:text-white dark:hover:bg-gray-800 dark:hover:text-secondary rounded-md'>
             View Archive
           </button>
         </Link>
@@ -22,7 +22,7 @@ const Projects = () => {
 
       <div className='gap-3 mt-5 grid  md:grid-cols-2 xl:grid-cols-3'>
         {projects.length === 0 && (
-          <h1 className='text-gray-200'>No projects to show.</h1>
+          <h1 className='text-primary-lighten-2'>No projects to show.</h1>
         )}
 
         {projects.length > 0 &&
