@@ -12,6 +12,7 @@ module.exports = {
         primary: colors.gray[900],
         "primary-lighten": colors.gray[600],
         "primary-lighten-2": colors.gray[400],
+        "primary-lighten-3": colors.gray[300],
         secondary: colors.green[400],
         light: colors.gray[100],
       },
