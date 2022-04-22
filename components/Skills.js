@@ -10,9 +10,6 @@ import {
   SiLaravel,
   SiReact,
   SiVuedotjs,
-  SiVuetify,
-  SiBootstrap,
-  SiMaterialui,
   SiElectron,
   SiGit,
   SiGithub,
@@ -22,8 +19,10 @@ import {
 } from "react-icons/si";
 
 const Card = ({ title, children }) => (
-  <div className='p-5  transition-colors rounded-md mt-10'>
-    <h1 className='text-gray-500 text-xl mb-5 text-center'>{title}</h1>
+  <div className='py-10  transition-colors rounded-md mt-10 shadow-md border dark:border-light border-primary-lighten-3'>
+    <h1 className='text-primary font-bold dark:text-primary-lighten text-lg text-center mb-5'>
+      {title}
+    </h1>
     {children}
   </div>
 );
@@ -35,49 +34,49 @@ const Skills = () => {
   return (
     <>
       <h1 className='text-secondary text-5xl mt-14'>Skills</h1>
-      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
+      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3'>
         <Card title={"Programing Languages"}>
           <CardBody>
-            <SiJavascript className='text-5xl text-gray-400' />
-            <SiTypescript className='text-5xl text-gray-400' />
-            <SiPython className='text-5xl text-gray-400' />
-            <SiPhp className='text-5xl text-gray-400' />
+            <SiJavascript className='text-5xl text-primary-lighten-2' />
+            <SiTypescript className='text-5xl text-primary-lighten-2' />
+            <SiPython className='text-5xl text-primary-lighten-2' />
+            <SiPhp className='text-5xl text-primary-lighten-2' />
           </CardBody>
         </Card>
 
         <Card title={"Backend Framworks"}>
           <CardBody>
-            <SiNodedotjs className='text-5xl text-gray-400' />
-            <SiFlask className='text-5xl text-gray-400' />
-            <SiLaravel className='text-5xl text-gray-400' />
+            <SiNodedotjs className='text-5xl text-primary-lighten-2' />
+            <SiFlask className='text-5xl text-primary-lighten-2' />
+            <SiLaravel className='text-5xl text-primary-lighten-2' />
           </CardBody>
         </Card>
 
         <Card title={"Frontend Framworks"}>
           <CardBody>
-            <SiReact className='text-5xl text-gray-400' />
-            <SiVuedotjs className='text-5xl text-gray-400' />
+            <SiReact className='text-5xl text-primary-lighten-2' />
+            <SiVuedotjs className='text-5xl text-primary-lighten-2' />
           </CardBody>
         </Card>
 
         <Card title={"Desktop Framworks"}>
           <CardBody>
-            <SiElectron className='text-5xl text-gray-400' />
+            <SiElectron className='text-5xl text-primary-lighten-2' />
           </CardBody>
         </Card>
 
         <Card title={"Tools"}>
           <CardBody>
-            <SiGit className='text-5xl text-gray-400' />
-            <SiGithub className='text-5xl text-gray-400' />
+            <SiGit className='text-5xl text-primary-lighten-2' />
+            <SiGithub className='text-5xl text-primary-lighten-2' />
           </CardBody>
         </Card>
 
         <Card title={"Databases"}>
           <CardBody>
-            <SiMysql className='text-5xl text-gray-400' />
-            <SiSqlite className='text-5xl text-gray-400' />
-            <SiMongodb className='text-5xl text-gray-400' />
+            <SiMysql className='text-5xl text-primary-lighten-2' />
+            <SiSqlite className='text-5xl text-primary-lighten-2' />
+            <SiMongodb className='text-5xl text-primary-lighten-2' />
           </CardBody>
         </Card>
       </div>
