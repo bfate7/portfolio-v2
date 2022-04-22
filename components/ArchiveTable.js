@@ -3,7 +3,7 @@ const ArchiveTable = ({ projects }) => {
   return (
     <table className='w-full mt-12' cellPadding='3'>
       <thead>
-        <tr className='text-left text-gray-400 '>
+        <tr className='text-left text-primary-lighten-3 '>
           <th></th>
           <th className='w-16 py-5 text-center px-5'>Year</th>
           <th>Title</th>
@@ -17,7 +17,7 @@ const ArchiveTable = ({ projects }) => {
         {projects &&
           projects.map(project => (
             <tr
-              className='h-10 hover:bg-gray-200 dark:hover:bg-gray-800 cursor-pointer'
+              className='h-10 hover:bg-gray-200 dark:hover:bg-primary-lighten-1 cursor-pointer'
               key={project.title}
             >
               <td>
@@ -26,23 +26,25 @@ const ArchiveTable = ({ projects }) => {
                 )}
               </td>
 
-              <td className='text-gray-600 py-5 text-center px-5'>
+              <td className='text-primary-lighten-3 py-5 text-center px-5'>
                 {project.year}
               </td>
 
-              <td className='dark:text-gray-200 pr-5'>{project.title}</td>
-              <td className='text-gray-600 pr-5 hidden md:table-cell'>
+              <td className='dark:text-primary-lighten-3 pr-5'>
+                {project.title}
+              </td>
+              <td className='text-primary-lighten-2 pr-5 hidden md:table-cell'>
                 {project.type}
               </td>
-              <td className='text-gray-600 pr-5 hidden md:table-cell'>
+              <td className='text-primary-lighten-2 pr-5 hidden md:table-cell'>
                 {project.technologies && project.technologies.join(" - ")}
               </td>
-              <td className='text-gray-600'>
+              <td className='text-primary-lighten-2'>
                 <div className='flex gap-4'>
                   {project.github_url && (
                     <a
                       href={project.github_url}
-                      className='text-gray-400 hover:text-green-300'
+                      className='text-gray-400 hover:text-secondary'
                       target='_blank'
                       rel='noreferrer'
                     >
@@ -52,7 +54,7 @@ const ArchiveTable = ({ projects }) => {
                   {project.production_url && (
                     <a
                       href={project.production_url}
-                      className='text-gray-400 hover:text-green-300'
+                      className='text-gray-400 hover:text-secondary'
                       target='_blank'
                       rel='noreferrer'
                     >
