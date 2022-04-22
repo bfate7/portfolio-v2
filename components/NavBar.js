@@ -51,6 +51,7 @@ const NavBar = () => {
     () => (
       <>
         <BaseNavLink to='about'>About</BaseNavLink>
+        <BaseNavLink to='experience'>Experience</BaseNavLink>
         <BaseNavLink to='skills'>Skills</BaseNavLink>
         <BaseNavLink to='projects'>Projects</BaseNavLink>
         <BaseNavLink to='contact'>Contact</BaseNavLink>
