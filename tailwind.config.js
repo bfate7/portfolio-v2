@@ -9,11 +9,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        //dark theme
-        "primary-dark-theme": colors.gray[900],
+        primary: colors.gray[900],
+        "primary-lighten": colors.gray[600],
+        "primary-lighten-2": colors.gray[400],
         secondary: colors.green[400],
-        //light theme
-        "primary-light-theme": colors.gray[100],
+        light: colors.gray[100],
       },
     },
   },
