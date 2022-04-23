@@ -10,7 +10,7 @@ import Experience from "../components/Experience";
 export default function Home() {
   return (
     <>
-      <div className='pt-60' id='about'>
+      <div className='pt-32 md:pt-60' id='about'>
         <Hero />
       </div>
       <div className='mt-20'>
