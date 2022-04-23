@@ -52,7 +52,7 @@ const Featuredproject = ({
           {title && title}
         </h1>
 
-        <p className='py-5 md:p-5 w-full md:bg-light border border-primary-lighten-4 dark:bg-transparent text-gray-600   dark:text-gray-300 md:dark:text-gray-400  md:dark:bg-gray-800  md:shadow-lg rounded-md mt-5 md:hover:shadow-2xl transition-all text-justify p-5'>
+        <p className='py-5 md:p-5 w-full md:bg-light border border-primary-lighten-3 dark:bg-transparent text-gray-600   dark:text-gray-300 md:dark:text-gray-400  md:dark:bg-gray-800  md:shadow-lg rounded-md mt-5 md:hover:shadow-2xl transition-all text-justify p-5'>
           {description && description}
         </p>
 
