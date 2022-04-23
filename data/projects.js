@@ -11,7 +11,7 @@ export const projects = [
     title: "Company phone book generator",
     description: "",
     type: "freelance",
-    technologies: ["electronjs", "bootstrap"],
+    technologies: ["electronjs", "bootstrap", "mysql"],
   },
   {
     year: 2021,
