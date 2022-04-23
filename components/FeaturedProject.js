@@ -1,7 +1,6 @@
 import React from "react";
 import { FiExternalLink, FiGithub } from "react-icons/fi";
 import classNames from "classnames";
-import Image from "next/image";
 
 const Featuredproject = ({
   discriptionRight,
@@ -37,12 +36,11 @@ const Featuredproject = ({
   });
 
   const renderImage = image => (
-    <Image
+    <img
       src={`/images/${image}`}
       alt='project preview'
       height={"500"}
       width={"800"}
-      className='h-full w-full'
     />
   );
 
@@ -54,7 +52,7 @@ const Featuredproject = ({
           {title && title}
         </h1>
 
-        <p className='py-5 md:p-5 w-full md:bg-light border border-primary-lighten-4 dark:bg-transparent text-gray-600   dark:text-gray-300 md:dark:text-gray-400  md:dark:bg-gray-800  md:shadow-lg rounded-md mt-5 md:hover:shadow-2xl transition-all'>
+        <p className='py-5 md:p-5 w-full md:bg-light border border-primary-lighten-4 dark:bg-transparent text-gray-600   dark:text-gray-300 md:dark:text-gray-400  md:dark:bg-gray-800  md:shadow-lg rounded-md mt-5 md:hover:shadow-2xl transition-all text-justify p-5'>
           {description && description}
         </p>
 
