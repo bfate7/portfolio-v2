@@ -20,7 +20,7 @@ const About = () => {
             </p>
           </blockquote>
           <figcaption className='font-medium'>
-            <div className='text-primary-lighten-2 dark:text-primary-lighten'>
+            <div className='text-primary-lighten-3'>
               Junior Full Stack Developer, DevTeam
             </div>
           </figcaption>
