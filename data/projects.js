@@ -27,18 +27,18 @@ export const projects = [
     type: "side project",
     github_url: "https://github.com/bfate7/slack-clone-react-firebase",
     technologies: ["react", "redux", "firebase"],
-    image: "test.jpeg",
+    image: "devchat.png",
     featured: true,
   },
 
   {
     year: 2020,
-    title: "full website for a computer shop",
+    title: "Full website for a computer shop",
     description:
-      "full computer shop including inventory, orders management, invoicing , and other features.",
+      "Full computer shop website including inventory, orders management, invoicing , and other features.",
     type: "internship project",
     technologies: ["flask", "sqlite", "booststrap"],
-    image: "test.jpeg",
+    image: "computer_shop_products.png",
     featured: true,
   },
 ];
