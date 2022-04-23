@@ -72,7 +72,7 @@ const NavBar = () => {
         }`}
       >
         <div
-          className='h-full w-8/12 absolute right-0 bg-gradient-to-b from-light to-primary-lighten-3 dark:from-primary-lighten dark:to-primary'
+          className='h-full w-8/12 absolute right-0 bg-gradient-to-b from-primary-lighten-4 to-primary-lighten-3 dark:from-primary-lighten-1 dark:to-primary'
           style={{ filter: "blur(0)" }}
         >
           <div className='flex flex-col items-center  gap-10 mt-16'>
