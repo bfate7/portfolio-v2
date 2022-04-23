@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div className='h-20 w-full mt-6  flex flex-col justify-center items-center '>
       <h2 className='text-center text-sm text-gray-500 darktext-gray-300 font-light'>
-        Made with React & tailwind.css
+        Made with Next & tailwind.css
       </h2>
 
       <h2 className='text-center text-sm text-gray-500 darktext-gray-300 font-light'>
