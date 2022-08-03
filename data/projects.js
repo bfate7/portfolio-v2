@@ -1,21 +1,21 @@
 export const projects = [
   {
     year: 2022,
-    title: "Personal Portfolio v2",
+    title: "Portfolio v2",
     description: "",
     type: "side project",
     technologies: ["nextjs", "tailwindcss", "framer"],
   },
   {
     year: 2021,
-    title: "Company phone book generator",
+    title: "Company phone book app",
     description: "",
     type: "freelance",
     technologies: ["electronjs", "bootstrap", "mysql"],
   },
   {
     year: 2021,
-    title: "My Personal Portfolio v1",
+    title: "Portfolio v1",
     description: "",
     type: "side project",
     technologies: ["react", "tailwindcss"],
