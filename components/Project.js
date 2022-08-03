@@ -11,7 +11,7 @@ const Project = ({
 }) => {
   return (
     <motion.div
-      className='border dark:border-0 dark:bg-primary-lighten-1 p-5  md:p-8 mt-3 shadow-lg flex flex-col  rounded-sm min-w-[250px]'
+      className='border dark:border-0 dark:bg-primary-lighten-1 p-5  md:p-8 mt-3 shadow-lg flex flex-col  rounded-sm min-w-[250px] min-h-[300px] max-h-[300px]'
       whileHover={{ y: -10 }}
     >
       <div className='flex justify-between items-center'>
